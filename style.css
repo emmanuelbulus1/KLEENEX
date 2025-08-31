@@ -60,4 +60,13 @@ h2 {
 }
 
 .card {
-  background-color: #f
+  background-color: #f9f9f9; /* added a color */
+  border: 1px solid #ccc; /* added a border */
+  border-radius: 8px; /* added a border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* added a box shadow */
+  padding: 20px; /* added padding */
+  margin: 10px; /* added margin */
+  flex: 1; /* added flex property */
+  min-width: 250px; /* added min-width for responsive design */
+  text-align: center; /* added text alignment */
+}
